@@ -28,7 +28,7 @@
 	background-color: #000;
 	border-radius: 8px;
 	position: relative;
-
+	overflow: hidden;
 }
 
 .insp__item::after {

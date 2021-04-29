@@ -45,8 +45,13 @@
 }
 .blog-article__link {
 	background-color: var(--neptune-colore);
-}
+	transition: background-color 0.3s;
 
+}
+.blog-article__link:hover {
+	transition: background-color 0.3s;
+	background-color: var(--neptune-hover-colore);
+}
 .featured__stories {
 	position: absolute;
 	right: 0;

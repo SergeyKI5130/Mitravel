@@ -41,9 +41,13 @@
 }
 .first__btn {
 	background: var(--accent-color);
-	z-index: 5;
+	z-index: 10;
+	transition: background-color 0.3s;
 }
-
+.first__btn:hover {
+	background-color: var(--accent-hover-color);
+	transition: background-color 0.3s;
+}
 
 .first__bottom {
 	position: absolute;
@@ -53,6 +57,7 @@
 	width: calc(100% - 60px);
 	display: flex;
 	align-items: flex-end;
+	z-index: 5;
 }
 .first__form {
 }
